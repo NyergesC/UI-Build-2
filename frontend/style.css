@@ -1,0 +1,100 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+a{
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/*css reset is over*/
+
+body {
+    background-color: #4343F9;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+
+.button {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #4343F9;
+    width: 240px;
+    height: 360px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 24px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    color: #4343F9;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+
+.p-absolute-top {
+  position: absolute;
+  left: 50%;
+  top: 2%;
+  transform: translate(-50%)
+      
+}
+
+.p-absolute-right {
+  position: absolute;
+  left: 95%;
+  bottom: 50%;
+  margin-bottom: -10px;
+  }
+
+.p-absolute-left {
+  position: absolute;
+  bottom: 50%;
+  right: 95%;
+  margin-bottom: -10px;
+  }
+
+.p-absolute-bottom {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%)
+  
+}
